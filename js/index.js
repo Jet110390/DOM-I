@@ -52,3 +52,28 @@ nav1.textContent= siteContent.nav['nav-item-1'];
 
 const nav2=document.querySelector('nav > a:nth-child(2)');
 nav2.textContent= siteContent.nav['nav-item-2'];
+
+const nav3=document.querySelector('nav > a:nth-child(3)');
+nav3.textContent= siteContent.nav['nav-item-3'];
+
+const nav4=document.querySelector('nav > a:nth-child(4)');
+nav4.textContent= siteContent.nav['nav-item-4'];
+
+const nav5=document.querySelector('nav > a:nth-child(5)');
+nav5.textContent= siteContent.nav['nav-item-5'];
+
+const nav6=document.querySelector('nav > a:nth-child(6)');
+nav6.textContent= siteContent.nav['nav-item-6'];
+
+const ctaH1=document.querySelector('h1');
+ctaH1.textContent=siteContent.cta['h1'];
+
+const button=document.querySelector('button');
+button.textContent=siteContent.cta['button'];
+
+const h4_feat=document.getElementsByClassName('top-content,h4')[1];
+h4_feat.textContent=siteContent["main-content"]["features-h4"];
+
+const h4_about=document.querySelectorAll('top-content,h4')[2];
+h4_feat.textContent=siteContent["main-content"]["about-h4"];
+
