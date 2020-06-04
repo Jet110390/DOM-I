@@ -47,22 +47,22 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
 const middleImg=document.getElementById('middle-img');
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-const nav1=document.querySelector('nav > a:nth-child(1)');
+const nav1=document.getElementsByTagName('a')[0];
 nav1.textContent= siteContent.nav['nav-item-1'];
 
-const nav2=document.querySelector('nav > a:nth-child(2)');
+const nav2=document.getElementsByTagName('a')[1];
 nav2.textContent= siteContent.nav['nav-item-2'];
 
-const nav3=document.querySelector('nav > a:nth-child(3)');
+const nav3=document.getElementsByTagName('a')[2];
 nav3.textContent= siteContent.nav['nav-item-3'];
 
-const nav4=document.querySelector('nav > a:nth-child(4)');
+const nav4=document.getElementsByTagName('a')[3];
 nav4.textContent= siteContent.nav['nav-item-4'];
 
-const nav5=document.querySelector('nav > a:nth-child(5)');
+const nav5=document.getElementsByTagName('a')[4];
 nav5.textContent= siteContent.nav['nav-item-5'];
 
-const nav6=document.querySelector('nav > a:nth-child(6)');
+const nav6=document.getElementsByTagName('a')[5];
 nav6.textContent= siteContent.nav['nav-item-6'];
 
 const ctaH1=document.querySelector('h1');
@@ -71,9 +71,35 @@ ctaH1.textContent=siteContent.cta['h1'];
 const button=document.querySelector('button');
 button.textContent=siteContent.cta['button'];
 
-const h4_feat=document.getElementsByClassName('top-content,h4')[1];
+const h4_feat=document.getElementsByTagName('h4')[0];
 h4_feat.textContent=siteContent["main-content"]["features-h4"];
 
-const h4_about=document.querySelectorAll('top-content,h4')[2];
-h4_feat.textContent=siteContent["main-content"]["about-h4"];
+const p_F=document.getElementsByTagName('p')[0];
+p_F.textContent=siteContent["main-content"]["features-content"];
+
+const h4_about=document.getElementsByTagName('h4')[1];
+h4_about.textContent=siteContent["main-content"]["about-h4"];
+
+const p_A=document.getElementsByTagName('p')[1];
+p_A.textContent=siteContent["main-content"]["about-content"];
+
+const h4_services=document.getElementsByTagName('h4')[2];
+h4_services.textContent=siteContent["main-content"]["services-h4"];
+
+const p_S=document.getElementsByTagName('p')[2];
+p_S.textContent=siteContent["main-content"]["services-content"];
+
+const h4_product=document.getElementsByTagName('h4')[3];
+h4_product.textContent=siteContent["main-content"]["product-h4"];
+
+const p_P=document.getElementsByTagName('p')[3];
+p_P.textContent=siteContent["main-content"]["product-content"];
+
+const h4_vision=document.getElementsByTagName('h4')[4];
+h4_vision.textContent=siteContent["main-content"]["vision-h4"];
+
+const p_V=document.getElementsByTagName('p')[4];
+p_V.textContent=siteContent["main-content"]["vision-content"];
+
+
 
