@@ -117,4 +117,14 @@ const p_CopyR=document.getElementsByTagName('p')[8];
 p_CopyR.textContent=siteContent["footer"]["copyright"];
 
 
+nav1.style.color="green";
+nav2.style.color="green";
+nav3.style.color="green";
+nav4.style.color="green";
+nav5.style.color="green";
+nav6.style.color="green";
+
+
+
+
 
