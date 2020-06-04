@@ -101,5 +101,20 @@ h4_vision.textContent=siteContent["main-content"]["vision-h4"];
 const p_V=document.getElementsByTagName('p')[4];
 p_V.textContent=siteContent["main-content"]["vision-content"];
 
+const h4_contact=document.getElementsByTagName('h4')[5];
+h4_contact.textContent=siteContent['contact']['contact-h4'];
+
+const p_1=document.getElementsByTagName('p')[5];
+p_1.textContent=siteContent["contact"]["address"];
+
+const p_2=document.getElementsByTagName('p')[6];
+p_2.textContent=siteContent["contact"]["phone"];
+
+const p_3=document.getElementsByTagName('p')[7];
+p_3.textContent=siteContent["contact"]["email"];
+
+const p_CopyR=document.getElementsByTagName('p')[8];
+p_CopyR.textContent=siteContent["footer"]["copyright"];
+
 
 
