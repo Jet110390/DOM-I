@@ -47,5 +47,8 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
 const middleImg=document.getElementById('middle-img');
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-const nav1=document.querySelectorAll('a');
-nav1.setAttribute('href',siteContent['nav']['nav-item-1'])
+const nav1=document.querySelector('nav > a:nth-child(1)');
+nav1.textContent= siteContent.nav['nav-item-1'];
+
+const nav2=document.querySelector('nav > a:nth-child(2)');
+nav2.textContent= siteContent.nav['nav-item-2'];
