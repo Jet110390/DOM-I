@@ -124,6 +124,22 @@ nav4.style.color="green";
 nav5.style.color="green";
 nav6.style.color="green";
 
+const nav7=document.createElement('a');
+nav7.textContent= 'nav-item-7';
+nav7.style.color='red';
+
+const nav=document.querySelector('nav');
+nav.appendChild(nav7);
+
+const nav8=document.createElement('a');
+nav8.textContent= 'nav-item-8';
+nav8.style.color='blue';
+
+
+nav.prepend(nav8);
+
+
+
 
 
 
